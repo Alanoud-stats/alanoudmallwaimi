@@ -1,0 +1,20 @@
+cd Desktop
+mkdir new-project
+cd new-project
+git init
+touch first.txt
+echo 'second file' > second.txt
+nano first.txt
+git add first.txt
+git add second.txt
+git commit -m "first.txt & second.txt added to repo"
+git restore first.txt
+nano first.txt
+git diff
+touch.gitirnore
+touch third.txt
+echo third.txt > .gitignore
+git log
+git log --oneline
+git commit --amend -m "first & second added"
+git log
