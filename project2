@@ -1,0 +1,25 @@
+#branches
+git branch testing
+git checkout 'testing'
+git checkout -b 'feature'
+git branch
+git checkout 'master'
+git branch -d feature
+
+#merge
+git merge feature
+touch third.txt
+git add third.txt
+git commit -m "third file create"
+git checkout master
+git merge feature
+git branch --merged master
+git branch --no-merged master
+
+#graph
+git log --oneline --graph
+
+#tag
+git tag v0.1
+git tag
+git tag -d v0.1
