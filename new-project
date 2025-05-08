@@ -2,3 +2,5 @@ cd Desktop
 mkdir new-project
 cd new-project
 git init
+touch first.txt
+ls
