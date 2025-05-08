@@ -1,0 +1,4 @@
+cd Desktop
+mkdir new-project
+cd new-project
+git init
