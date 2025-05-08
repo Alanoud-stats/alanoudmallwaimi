@@ -1,0 +1,9 @@
+cd Desktop
+mkdir lab1-project
+mv LAB1.pdf lab1-project/
+cd lab1-project
+git init
+git add LAB1.pdf
+git commit -m "Add LAB1.pdf file"
+git remote add origin https://github.com/Alanoud-stats/alanoudmallwaimi.git
+git push -u origin main
