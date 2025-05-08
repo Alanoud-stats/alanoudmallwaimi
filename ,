@@ -1,0 +1,11 @@
+git init LAB1
+cd LAB1
+touch lab1.py
+nano lab1.py
+
+git add lab1.py
+git commit -m "Add LAB1 with numerical differentiation examples"
+
+git remote add origin https://github.com/YOUR_USERNAME/LAB1.git
+git branch -M main
+git push -u origin main
